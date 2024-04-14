@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+ 
+
+ nav {
+    height: 12vh;
+    width: 100%;
+    /* background-color: rgb(199, 196, 196); */
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 2vmax;
+ }
+ 
+ nav h1 {
+    font-size: 3em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ul{
+    display: flex;
+}
+ nav a {
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+     margin: 0 12px;
+     transition: color 0.3s ease-in-out;
+     font-size: 22px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+ 
+ nav a:hover {
+     color: #3498db;
+ }
+ 
+ main {
+    height: 100%;
+    width: 100%;
+     padding: 20px 0;
+ }
+ 
+ 
+ .container1{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://www.shutterstock.com/image-photo/soft-focushigh-school-university-student-260nw-776643322.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+display: flex;
+align-items: center;
+justify-content: end;
+padding: 0 50px;
+ }
+
+
+ .container1-content{
+    height: 53vh;
+    width: 45vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .container1-content> h2{
+    font-size: 3em;
+ }
+ 
+ .container1-content> .para1{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vmax;
+    font-weight: bold;
+ }
+ 
+
+ .container1-content > .para2{
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5vmax;
+ }
+
+ .cta-button{
+    padding: 1vmax 1vmax;
+    background-color: yellow;
+font-weight: bold;    
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.2em;
+border: none;
+border-radius: 0.5vmax;
+margin-top: 1vmax;
+text-decoration: none;
+color: black;
+ }
+ 
+
+
+.container2{
+    height: 50%;
+    width: 100%;
+     background-color: #ecf0f1;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 2vmax;
+}
+
+.container2 >h2{
+    font-size: 3em;
+
+}
+
+.container2 >p{
+    font-size: 1.7em;
+    width: 70%;
+margin-top: 1vmax;
+text-align: center;
+
+}
+
+.container3{
+    height: 50vh;
+    width: 100%;
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 1vmax;
+}
+
+.container3 >h1{
+    font-size: 3em;
+
+}
+.container3 >ul{
+    display: flex;
+    flex-direction: column;
+  margin-top: 2em;
+}
+
+.container3 >ul li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+
+
+.container4{
+    height: 100%;
+    width: 100%;
+background-image: url("https://thumbs.dreamstime.com/z/inscription-exam-keyboard-stationary-blue-background-top-view-174694968.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 10px 30px;
+
+}
+
+.container4-content{
+    height: 63%;
+    width: 45%;
+/* border: 2px solid black; */
+margin-left: 10%;
+margin-top: 5%;
+}
+.container4-content >h2{
+    font-size: 3em;
+margin-left: 8%;
+}
+
+.container4-content >p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.container4-content >h3{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.container4-content >ol{
+    margin-left: 32%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.container4-content >ol li{
+    margin: 15px 0;
+}
+
+
+.container5{
+    height: 70vh;
+    width: 100%;
+    text-align: center;
+    /* background-color: pink; */
+}
+
+.container5 >h2{
+    font-size: 3em;
+
+}
+.container5 >p{
+    font-size: 1.3em;
+    margin-top: 5px;
+
+}
+
+#quiz-container{
+    height: 70%;
+    width: 55%;
+    /* background-color: red; */
+    margin:  20px auto;
+   position: relative;
+}
+
+.question1{
+    height: 30vh;
+    width: 20vw;
+    background-color: rgb(200, 200, 200);
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    border-radius: 10px;
+}
+.question1 >h3, .question2 >h3{
+font-size: 1.7em;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 5px;
+}
+
+.question1 >p, .question2 >h3 {
+font-size: 1.3em;
+margin: 10px 0;
+}
+.question1 ul, .question2 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.question1 ul li, .question2 ul li{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.question2{
+    height: 30vh;
+    width: 20vw;
+    background-color: rgb(200, 200, 200);
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    border-radius: 10px;
+
+}
+
+#quiz-submit{
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.container6{
+    height: 30vh;
+    width: 100%;
+    background-color: #ecf0f1;
+  
+}
+
+.container6 >h2{
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.container6 >p{
+    font-size: 1.3em;
+    text-align: center;
+    
+}
+.container6 form label{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+ 
+.container6  form #email{
+    margin-top: 30px;
+    width: 25%;
+}
+
+.container6 button{
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 15px;
+
+}
+ 
+ 
+ 
+ .container7{
+    height: 60%;
+    width: 100%;
+    /* background-color: yellow; */
+    padding-top: 20px;
+ }
+
+ .container7 >h2{
+    font-size: 3em;
+    text-align: center;
+ }
+
+
+ .exambox{
+    height: 72%;
+    width: 100%;
+    /* border: 2px solid black; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+margin-top: 25px;
+ }
+.exam-section{
+    height: 80%;
+    width: 19%;
+    background-color: rgb(184, 184, 184);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+padding: 0 10px;
+ }
+
+ .exam-section >h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    padding-top: 10px;
+ }
+ 
+ .exam-section >p{
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 5px;
+ }
+
+ .link1, .link2{
+    font-size: 1.2em;
+    margin-top: 5px;
+ }
+
+
+.container8{
+    height: 60%;
+    width: 100%;
+    background-color: #ecf0f1;
+
+}
+
+.container8 >h2{
+    font-size: 3em;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.testimonialbox{
+    height: 72%;
+    width: 100%;
+    /* border: 2px solid black; */
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+margin-top: 25px;
+}
+
+.testimonial1, .testimonial2, .testimonial3, .testimonial4{
+    height: 80%;
+    width: 22%;
+    background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+padding: 0 10px;
+}
+.testimonial1 >p, .testimonial2 >p, .testimonial3 >p, .testimonial5 >p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.container9{
+    height: 30%;
+    width: 100%;
+}
+.container9 >h2{
+text-align: center;
+font-size: 3em;
+}
+
+.container9 >p{
+margin-top: 10px;
+font-size: 1.2em;
+text-align: center;
+}
+
+form >label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    margin-top: 2%;
+}
+form >input{
+    height: 12%;
+    width: 35%;
+    margin-top: 3%;
+}
+
+form >button{
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 2%;
+}
+
+
+ 
+ 
+ footer {
+     background-color: #2c3e50;
+     color: #fff;
+     text-align: center;
+     padding: 20px 0;
+ }
+ 
+ #subscribeForm {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ #subscribeForm label {
+     margin-right: 10px;
+ }
+ 
+ #subscribeForm input {
+     padding: 10px;
+     margin-bottom: 10px;
+ }
+ 
+ #subscribeForm button {
+     background-color: #3498db;
+     color: #fff;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s ease-in-out;
+ }
+ #subscribeForm button:hover {
+     background-color: #2980b9;
+ }
+ /* ... (previous CSS code) ... */
+
+#about {
+     /* background-color: #ecf0f1; */
+     padding: 40px 0;
+ }
+ 
+ .about-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .about-image img {
+     max-width: 100%;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .about-text {
+     max-width: 60%;
+ }
+ 
+ /* Animation for About Us text */
+ .about-text p {
+     opacity: 0;
+     transform: translateY(20px);
+     transition: opacity 0.5s, transform 0.5s;
+ }
+ 
+ .about-text.show {
+     opacity: 1;
+     transform: translateY(0);
+ }
+ 
+ /* ... (remaining CSS code) ... */
+ 
